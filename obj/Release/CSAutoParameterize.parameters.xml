@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-PaskiMvcSample.Web-20130523121108;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-PaskiMvcSample.Web-20130523121108.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\apasquale\\documents\\visual\ studio\ 2012\\Projects\\PaskiMvcSample\.Web\\PaskiMvcSample\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="PersonContext-Web.config Connection String" description="PersonContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=PersonContext-20130523121418; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|PersonContext-20130523121418.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\apasquale\\documents\\visual\ studio\ 2012\\Projects\\PaskiMvcSample\.Web\\PaskiMvcSample\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PersonContext']/@connectionString" />
+  </parameter>
+</parameters>
